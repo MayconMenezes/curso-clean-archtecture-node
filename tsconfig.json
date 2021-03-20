@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    //Aonde o javascript vai compilar
+    "outDir": "./dist",
+    //Fazer com que o javascript converta import/export para require do javascript na hora da compilação
+    "module": "commonjs",
+    //Versão do emmaScript/Javascript
+    "target": "es2019",
+    //Permite utilizar o require como import
+    "esModuleInterop": true,
+    //Permite libs JS
+    "allowJs": true
+  }
+}
