@@ -9,6 +9,7 @@
     //Permite utilizar o require como import
     "esModuleInterop": true,
     //Permite libs JS
-    "allowJs": true
+    "allowJs": true,
+    "strictNullChecks": true
   }
 }
