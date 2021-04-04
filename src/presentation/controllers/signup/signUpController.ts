@@ -36,6 +36,7 @@ export class SignUpController implements Controller {
 
       return createdStatus(account)
     } catch (error) {
+      console.log('ERROR: ', error)
       return serverError()
     }
   }
